@@ -143,7 +143,7 @@ export function FeaturedRooms() {
             <span className="grid h-16 w-16 place-items-center rounded-full border border-gold text-gold-deep transition-colors duration-500 group-hover:bg-gold group-hover:text-charcoal">
               <ArrowRight className="h-5 w-5" strokeWidth={1.25} />
             </span>
-            <span className="font-heading text-xl italic text-ink/70">All 42 rooms &amp; suites</span>
+            <span className="font-heading text-xl italic text-ink/70">All 64 rooms &amp; suites</span>
           </span>
         </Link>
       </div>

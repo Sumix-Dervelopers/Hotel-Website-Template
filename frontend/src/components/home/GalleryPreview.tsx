@@ -30,7 +30,7 @@ export function GalleryPreview() {
             <RevealText
               as="h2"
               className="h-section mt-5"
-              lines={["Postcards from", <em key="g" className="italic text-gold-deep">the cliff</em>]}
+              lines={["Postcards from", <em key="g" className="italic text-gold-deep">Marylebone</em>]}
             />
           </div>
           <FadeUp delay={0.2}>

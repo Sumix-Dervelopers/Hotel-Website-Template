@@ -3,7 +3,7 @@ export interface Room {
   slug: string;
   name: string;
   type: "Suite" | "Room" | "Residence" | "Penthouse";
-  price: number; // per night, EUR
+  price: number; // per night, GBP
   capacity: number;
   size: number; // m²
   bed: string;
@@ -31,14 +31,14 @@ const detail = {
 
 export const rooms: Room[] = [
   {
-    slug: "signature-ivory-suite",
-    name: "Signature Ivory Suite",
+    slug: "ashcombe-suite",
+    name: "The Ashcombe Suite",
     type: "Suite",
-    price: 890,
+    price: 1150,
     capacity: 2,
-    size: 68,
-    bed: "Emperor king",
-    view: "Full sea view",
+    size: 62,
+    bed: "Super king",
+    view: "Ashcombe Place",
     image:
       "https://images.unsplash.com/photo-1744000311897-510b64f9a2e2?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
     imageAlt: "Lavish ivory-dressed bed beneath warm brass lamps",
@@ -48,19 +48,19 @@ export const rooms: Room[] = [
       breakfast,
     ],
     description:
-      "Hand-plastered walls, a bed dressed in washed ivory linen, and a terrace that catches the first light over the bay. The bathroom is travertine, the minibar is local, and the silence is absolute.",
-    amenities: ["Sea-view terrace", "King bed", "Soaking tub", "Butler service", "Daily pressing", "Riviera minibar"],
+      "The first-floor drawing room of the original house: 3.6-metre ceilings, working shutters, a carved marble fireplace and three tall sash windows over the plane trees of Ashcombe Place. The bathroom is Carrara marble, the minibar is London-made, and the silence is absolute.",
+    amenities: ["Marble fireplace", "Super king bed", "Freestanding bath", "Butler service", "Daily pressing", "London minibar"],
     tag: "Most loved",
   },
   {
-    slug: "sumix-grand-king",
-    name: "Sumix Grand King",
+    slug: "deluxe-king",
+    name: "Deluxe King",
     type: "Room",
-    price: 640,
+    price: 595,
     capacity: 2,
-    size: 52,
+    size: 34,
     bed: "King",
-    view: "Garden & partial sea",
+    view: "Garden courtyard",
     image:
       "https://images.unsplash.com/photo-1776763018972-588e27bf6511?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
     imageAlt: "King-size bed with a private seating area in soft lamplight",
@@ -70,18 +70,18 @@ export const rooms: Room[] = [
       bath,
     ],
     description:
-      "A generous corner room with a reading salon, deep armchairs and blackout silk drapes for long mornings. The writing desk faces the lemon grove.",
-    amenities: ["Reading salon", "King bed", "Rain shower", "Nespresso atelier", "Writing desk"],
+      "Our classic London room: deep armchairs, a writing desk by the sash window, and blackout drapes for long mornings. It looks over the walled garden courtyard, so the only sound is the occasional blackbird.",
+    amenities: ["Courtyard view", "King bed", "Rain shower", "Espresso machine", "Writing desk"],
   },
   {
-    slug: "atelier-loft",
-    name: "The Atelier Loft",
+    slug: "studio-loft",
+    name: "The Studio Loft",
     type: "Suite",
-    price: 720,
+    price: 780,
     capacity: 3,
-    size: 61,
+    size: 48,
     bed: "King + day bed",
-    view: "Rooftops & sea",
+    view: "Marylebone rooftops",
     image:
       "https://images.unsplash.com/photo-1758448755969-8791367cf5c5?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
     imageAlt: "Loft bedroom with floor-to-ceiling windows and modern decor",
@@ -91,18 +91,18 @@ export const rooms: Room[] = [
       detail,
     ],
     description:
-      "Double-height windows, a writer's desk, and a palette of bone, oak and bronze — made for slow creative mornings that turn into evenings.",
-    amenities: ["Double-height windows", "Day bed", "Writing desk", "Record player", "Rain shower"],
+      "Up under the eaves of the old servants' floor: a double-height studio with a north-light window over the chimney pots, a writer's desk, and a palette of bone, oak and bronze.",
+    amenities: ["Rooftop windows", "Day bed", "Writing desk", "Record player", "Rain shower"],
   },
   {
-    slug: "garden-residence",
-    name: "Garden Residence",
+    slug: "mews-residence",
+    name: "The Mews Residence",
     type: "Residence",
-    price: 1150,
+    price: 1650,
     capacity: 4,
-    size: 96,
+    size: 110,
     bed: "Two kings",
-    view: "Private garden",
+    view: "Private mews courtyard",
     image:
       "https://images.unsplash.com/photo-1788217023349-ad7763845844?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
     imageAlt: "Wooden-framed bed opening onto a glass-walled garden bath",
@@ -112,40 +112,40 @@ export const rooms: Room[] = [
       breakfast,
     ],
     description:
-      "Two bedrooms wrapped around a private lemon garden, with an outdoor rain shower and a kitchen our chefs will happily cook in for you.",
-    amenities: ["Private garden", "Two bedrooms", "Chef's kitchen", "Outdoor shower", "Lounge"],
+      "The restored coach house behind the main building, with its own front door onto a cobbled mews. Two bedrooms around a planted courtyard, and a kitchen our chefs will happily cook in for you.",
+    amenities: ["Private entrance", "Two bedrooms", "Chef's kitchen", "Courtyard garden", "Lounge"],
     tag: "Families",
   },
   {
-    slug: "horizon-deck-suite",
-    name: "Horizon Deck Suite",
+    slug: "terrace-suite",
+    name: "The Terrace Suite",
     type: "Suite",
-    price: 980,
+    price: 1350,
     capacity: 2,
-    size: 74,
-    bed: "Emperor king",
-    view: "Panoramic sea",
+    size: 70,
+    bed: "Super king",
+    view: "Private roof terrace",
     image:
-      "https://images.unsplash.com/photo-1588504633950-9dc518941e93?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-    imageAlt: "Private wooden deck resting over still water at dusk",
+      "https://images.unsplash.com/photo-1674042385136-28d23ca038ef?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+    imageAlt: "Morning tray resting on crisp white bedding",
     gallery: [
-      { src: "https://images.unsplash.com/photo-1588504633950-9dc518941e93?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400", alt: "Private wooden deck resting over still water at dusk" },
+      { src: "https://images.unsplash.com/photo-1674042385136-28d23ca038ef?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400", alt: "Morning tray resting on crisp white bedding" },
       breakfast,
       bath,
     ],
     description:
-      "A suite that ends in a private deck above the water — breakfast is delivered by boat if you wish, and sunset is a private performance.",
-    amenities: ["Private deck", "Boat breakfast", "King bed", "Outdoor bath", "Binoculars & charts"],
+      "A fourth-floor suite that opens onto its own planted terrace above the square. Breakfast is served outside from April to October, and on a clear evening you can pick out the BT Tower and the London Eye.",
+    amenities: ["Private terrace", "Terrace breakfast", "Super king bed", "Walk-in dressing room", "Outdoor heaters"],
   },
   {
-    slug: "royal-penthouse",
-    name: "The Royal Penthouse",
+    slug: "hartley-penthouse",
+    name: "The Hartley Penthouse",
     type: "Penthouse",
-    price: 2400,
+    price: 4800,
     capacity: 6,
-    size: 210,
-    bed: "Three suites",
-    view: "360° terrace",
+    size: 230,
+    bed: "Three bedrooms",
+    view: "Wraparound roof terrace",
     image:
       "https://images.unsplash.com/photo-1655516433028-9e0e1599cf8b?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
     imageAlt: "Grand salon with a crystal chandelier and gilded ceiling",
@@ -155,8 +155,8 @@ export const rooms: Room[] = [
       breakfast,
     ],
     description:
-      "The entire top floor: a grand salon, three suites, a private bar and a 360° terrace above the Riviera. A dedicated host lives one floor below.",
-    amenities: ["360° terrace", "Private bar", "Three suites", "Dedicated host", "Grand piano"],
+      "The entire top floor, named for the sisters who founded the house: a grand salon, three bedrooms, a private bar and a wraparound terrace over the rooftops of Marylebone. A dedicated host lives one floor below.",
+    amenities: ["Wraparound terrace", "Private bar", "Three bedrooms", "Dedicated host", "Grand piano"],
     tag: "Signature",
   },
 ];
@@ -165,7 +165,7 @@ export const roomTypes = ["All", "Room", "Suite", "Residence", "Penthouse"] as c
 export const capacities = ["Any", "2", "3", "4", "6"] as const;
 export const priceBands = [
   { label: "Any price", min: 0, max: Infinity },
-  { label: "Under €750", min: 0, max: 750 },
-  { label: "€750 – €1,200", min: 750, max: 1200 },
-  { label: "€1,200+", min: 1200, max: Infinity },
+  { label: "Under £800", min: 0, max: 800 },
+  { label: "£800 – £1,500", min: 800, max: 1500 },
+  { label: "£1,500+", min: 1500, max: Infinity },
 ] as const;

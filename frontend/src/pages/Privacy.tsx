@@ -32,8 +32,8 @@ export default function Privacy() {
         {
           heading: "Retention & your rights",
           body: [
-            "Reservation records are kept for the period required by Italian fiscal law, then deleted. Correspondence is deleted after two quiet years.",
-            "You may ask at any time to see, correct or erase your information. Write to the concierge and it will be done within thirty days.",
+            "Reservation records are kept for six years, as required by HMRC, then deleted. Correspondence is deleted after two quiet years.",
+            "Under UK GDPR you may ask at any time to see, correct or erase your information. Write to the concierge and it will be done within thirty days. You may also contact the Information Commissioner's Office (ICO).",
           ],
         },
         {

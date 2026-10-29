@@ -12,10 +12,10 @@ export default function Journal() {
     <>
       <PageHero
         eyebrow="Journal"
-        titleLines={["Letters from", <em key="j" className="italic text-gold-light">the cliff</em>]}
+        titleLines={["Letters from", <em key="j" className="italic text-gold-light">Marylebone</em>]}
         subcopy="Harvest notes, kitchen diaries and the occasional defence of doing nothing."
         image="https://images.unsplash.com/photo-1739520081275-f893dc11fbd6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
-        imageAlt="The estate courtyard at dusk"
+        imageAlt="The garden courtyard at dusk"
       />
 
       <section className="section-pad bg-ivory" data-testid="journal-list">

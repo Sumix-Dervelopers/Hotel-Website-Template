@@ -13,46 +13,46 @@ export interface JournalPost {
 
 export const journalPosts: JournalPost[] = [
   {
-    slug: "lemon-harvest",
-    title: "Notes from the lemon harvest",
-    category: "Estate Life",
-    date: "2026-06-12",
+    slug: "marylebone-on-foot",
+    title: "A Marylebone morning, on foot",
+    category: "Neighbourhood",
+    date: "2026-10-02",
     readTime: "4 min",
     excerpt:
-      "Every June the terraces turn yellow and the whole house smells of citrus. Our head gardener on forty years of harvests.",
+      "Bookshops, a Sunday market and the best cheese counter in London — our head concierge on the walk he gives every first-time guest.",
     image:
-      "https://images.unsplash.com/photo-1739520081275-f893dc11fbd6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600",
-    imageAlt: "The estate courtyard at dusk",
+      "https://images.unsplash.com/photo-1517394834181-95ed159986c7?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600",
+    imageAlt: "Georgian sash windows and a red telephone box on a rainy London morning",
     body: [
-      "The first week of June, before the guests are properly awake, the ladders go up. The terraces above the house hold four hundred lemon trees, some planted before the hotel existed, and for ten days the whole estate smells of citrus oil and cut grass.",
-      "Giulia, our head gardener, has led the harvest for forty years. She picks by hand, always before ten in the morning, because a lemon picked warm from the afternoon sun keeps its perfume for half as long. This is the kind of fact she offers without being asked, leaning on the ladder.",
-      "Most of the fruit goes to the kitchen — the curd on the breakfast terrace, the sorbet that closes the tasting menu at Lume, the oil that starts the citrus ritual in the spa. The rest goes home with the staff in paper bags, a tradition older than the hotel itself.",
-      "Guests are welcome to join the morning picking. Nobody is woken for it; the ladders are simply there, and the rule is the same as everywhere else in the house — nothing hurried.",
+      "James Okonkwo has been our head concierge for eleven years, and he still begins every first-time guest's stay the same way: a hand-drawn map, and a suggestion to leave the phone in the room.",
+      "The walk starts at our front door and turns left onto Marylebone High Street. First stop is Daunt Books, with its long oak gallery and skylights, where James insists you buy one book about the place you are going next. Then coffee, standing up, at whichever café has the shortest queue.",
+      "From there it is five minutes to the Wallace Collection on Manchester Square — free to enter, quietly extraordinary, and almost never crowded before eleven. On Sundays the route bends past the farmers' market on Cramer Street, where the kitchen at Hollis does some of its own shopping.",
+      "The walk ends in Regent's Park, because James believes every London morning should. Guests usually come back with bags of cheese and a slightly different idea of the city — which, he says, is the whole point.",
     ],
   },
   {
-    slug: "summer-menu-lume",
-    title: "Inside the summer menu at Lume",
+    slug: "autumn-menu-hollis",
+    title: "Inside the autumn menu at Hollis",
     category: "Dining",
-    date: "2026-05-28",
+    date: "2026-09-18",
     readTime: "6 min",
     excerpt:
-      "Anchovies at dawn, tomatoes still warm from the vine — how a seven-course menu is built from a single morning market.",
+      "Day-boat turbot, Hereford beef and a treacle tart that is older than the restaurant — how a seven-course menu is built around the British seasons.",
     image:
       "https://images.unsplash.com/photo-1676471926534-d5c9771909fa?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600",
-    imageAlt: "A plated fillet of fish with summer vegetables",
+    imageAlt: "A plated fillet of fish with seasonal vegetables",
     body: [
-      "The menu at Lume is decided at seven in the morning, standing between the fish crates at the harbour market. There is a printed menu, of course, but it is written in pencil.",
-      "This summer's opening course is an anchovy marinated at dawn and dressed with charcoal oil and wild fennel. It is followed by a tomato course — three preparations, all from a single farm two valleys inland, picked the previous afternoon and still faintly warm when they arrive.",
-      "The pasta course never changes its shape and always changes its mind: hand-cut tagliolini, this month with red prawns, bergamot and sea asparagus. Our pastaia rolls it in view of the first sitting, which is theatre we did not plan and would not remove.",
-      "Dessert returns to the garden: lemon sorbet, torn meringue, olive oil pressed last November. Seven courses, roughly two and a half hours, and a cellar that leans toward producers small enough to know by name.",
+      "The menu at Hollis is decided on the phone at six in the morning, between the kitchen and a handful of farmers and fishermen we have known for years. There is a printed menu, of course, but it is written in pencil.",
+      "This autumn's opening course is a Maldon rock oyster with frozen cucumber and buttermilk — a cold, bright start before the menu turns warmer. Hand-dived scallops follow from the west coast of Scotland, then turbot from Cornish day boats, cooked on the bone with mussels and cider.",
+      "The beef is Hereford, aged for forty days in the cellar below the bar. It arrives with smoked shallot, bone marrow and a tangle of watercress from a Hampshire farm that has grown it since the 1800s.",
+      "Dessert is the one thing that never changes: Annie Hollis's treacle tart, from the house's first cook, served with clotted cream. Seven courses, roughly two and a half hours, and a cellar that leans toward producers small enough to know by name.",
     ],
   },
   {
     slug: "art-of-doing-nothing",
     title: "The art of doing nothing, properly",
     category: "Wellness",
-    date: "2026-05-09",
+    date: "2026-08-21",
     readTime: "5 min",
     excerpt:
       "Our spa director argues that rest is a skill — and shares the three rituals she teaches every arriving guest.",
@@ -60,10 +60,10 @@ export const journalPosts: JournalPost[] = [
       "https://images.unsplash.com/photo-1720118509152-2df877673bee?crop=entropy&cs=srgb&fm=jpg&q=85&w=1600",
     imageAlt: "A candlelit bath drawn in the spa",
     body: [
-      "Most guests arrive, our spa director likes to say, with their shoulders somewhere near their ears. Her job is not massage, she insists — it is subtraction. Removing urgency until what remains is a person lying still, listening to water.",
-      "Her first ritual is the simplest: twenty minutes in the thermal circuit with no telephone, no book, no conversation. Guests resist it and then, on day three, defend it fiercely.",
-      "The second is the dusk bath. A treatment suite is drawn with candles and estate oils half an hour before sunset, timed so that the light leaves the room exactly as the soak ends. It sounds precious. It works.",
-      "The third ritual is not in the spa at all: breakfast on the terrace with nothing to read. Watching the ferries cross the bay counts, she says, as a complete morning's activity. Forty years of guest books suggest she is right.",
+      "Most guests arrive in London, our spa director likes to say, with their shoulders somewhere near their ears. Her job is not massage, she insists — it is subtraction. Removing urgency until what remains is a person lying still, listening to water.",
+      "Her first ritual is the simplest: twenty minutes in the thermal circuit down in the vaults with no telephone, no book, no conversation. Guests resist it and then, on day three, defend it fiercely.",
+      "The second is the twilight bath. A treatment suite is drawn with candles and house oils as the streetlights come on above, timed so that the city is fully dark when the soak ends. It sounds precious. It works.",
+      "The third ritual is not in the spa at all: breakfast in the Drawing Room with nothing to read. Watching Ashcombe Place wake up counts, she says, as a complete morning's activity. A century of guest books suggests she is right.",
     ],
   },
 ];

@@ -223,7 +223,7 @@ export default function Booking() {
                   </Field>
                   <div className="md:col-span-2">
                     <Field label="Special requests (optional)">
-                      <textarea {...register("requests")} rows={3} className={`${fieldThemes.light.input} resize-none`} data-testid="guest-requests" placeholder="Anniversaries, allergies, arrival by boat…" />
+                      <textarea {...register("requests")} rows={3} className={`${fieldThemes.light.input} resize-none`} data-testid="guest-requests" placeholder="Anniversaries, allergies, arrival times…" />
                     </Field>
                   </div>
                 </div>
@@ -286,7 +286,7 @@ export default function Booking() {
                 >
                   <Check className="h-8 w-8" strokeWidth={1.5} />
                 </motion.span>
-                <h2 className="h-section mt-8">The cliff is <em className="italic text-gold-deep">expecting you</em></h2>
+                <h2 className="h-section mt-8">The house is <em className="italic text-gold-deep">expecting you</em></h2>
                 <p className="mx-auto mt-5 max-w-md text-sm leading-relaxed text-ink/65">
                   Reference <span className="font-semibold text-ink" data-testid="booking-reference">{reference}</span> —{" "}
                   {room.name}, {nights} {nights === 1 ? "night" : "nights"} from{" "}

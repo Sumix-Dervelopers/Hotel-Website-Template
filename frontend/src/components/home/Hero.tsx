@@ -104,7 +104,7 @@ export function Hero() {
           transition={{ duration: 0.9, ease: EASE, delay: 0.9 }}
         >
           <PillButton to="/rooms" variant="light" testId="hero-explore-cta">
-            Explore the estate
+            Explore the house
           </PillButton>
           <PillButton to="/booking" variant="outline-light" testId="hero-reserve-cta">
             Reserve your stay

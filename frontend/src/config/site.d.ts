@@ -38,6 +38,7 @@ export interface SiteConfig {
     mapEmbed: string;
   };
   hours: Record<string, string>;
+  credit: { label: string; name: string; url: string };
   social: Record<string, string>;
   nav: NavItem[];
   footerNav: NavItem[];

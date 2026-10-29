@@ -32,9 +32,9 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact"
         titleLines={["The concierge", <em key="c" className="italic text-gold-light">never sleeps</em>]}
-        subcopy="Write, call or simply arrive by boat — the house answers at any hour."
-        image="https://images.unsplash.com/photo-1588504633950-9dc518941e93?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
-        imageAlt="The private jetty resting over still water"
+        subcopy="Write, call or simply walk in from the street — the house answers at any hour."
+        image="https://images.unsplash.com/photo-1520986606214-8b456906c813?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
+        imageAlt="A red double-decker bus passing the Elizabeth Tower at dusk"
       />
 
       <section className="section-pad bg-ivory" data-testid="contact-main">

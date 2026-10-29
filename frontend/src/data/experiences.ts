@@ -2,7 +2,7 @@
 export interface Experience {
   slug: string;
   title: string;
-  category: "On the water" | "On the estate" | "Celebrations";
+  category: "In London" | "In the house" | "Celebrations";
   duration: string;
   priceNote: string;
   description: string;
@@ -12,61 +12,61 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    slug: "gozzo-day",
-    title: "A day aboard our gozzo",
-    category: "On the water",
-    duration: "Full day",
-    priceNote: "From €680 for two",
-    description:
-      "Our wooden gozzo, a captain who knows every cove, a picnic from the kitchen and anchorages you will not find on a map.",
-    image:
-      "https://images.unsplash.com/photo-1770563864411-488559bf7a56?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    imageAlt: "A wooden gozzo floating near colourful harbour buildings",
-  },
-  {
-    slug: "sunset-cliffs",
-    title: "Sunset at the cliff edge",
-    category: "On the water",
+    slug: "thames-after-dark",
+    title: "The Thames after dark",
+    category: "In London",
     duration: "3 hours",
-    priceNote: "From €240 for two",
+    priceNote: "From £420 for two",
     description:
-      "A slow cruise along the cliffs at golden hour with chilled vermouth and the house's anchovy toast.",
+      "A private river launch from Westminster Pier to Tower Bridge as the city lights come on, with English sparkling wine and a hamper from our kitchen.",
     image:
-      "https://images.unsplash.com/photo-1787574441665-e16aa244fe75?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    imageAlt: "A small boat near a rocky cliffside at dusk",
+      "https://images.unsplash.com/photo-1543832923-44667a44c804?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    imageAlt: "Tower Bridge and the Shard lit up against an orange dusk sky",
   },
   {
-    slug: "pasta-atelier",
-    title: "The pasta atelier",
-    category: "On the estate",
-    duration: "Half day",
-    priceNote: "From €160 per guest",
+    slug: "west-end-night",
+    title: "A night in the West End",
+    category: "In London",
+    duration: "Evening",
+    priceNote: "From £380 for two",
     description:
-      "Flour, eggs and forty years of technique — roll tagliolini with our pastaia, then eat your work on the terrace.",
+      "A pre-theatre supper at Hollis, the best seats our concierge can find for the night, and a car waiting at the stage door to bring you home.",
     image:
-      "https://images.unsplash.com/photo-1642354571956-d77dfd9596bb?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    imageAlt: "Hands feeding dough through a pasta machine",
+      "https://images.unsplash.com/photo-1520986606214-8b456906c813?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    imageAlt: "A red double-decker bus passing the Elizabeth Tower at dusk",
   },
   {
-    slug: "lemon-harvest",
-    title: "Lemon harvest morning",
-    category: "On the estate",
+    slug: "marylebone-on-foot",
+    title: "Marylebone, on foot",
+    category: "In London",
     duration: "2 hours",
     priceNote: "Complimentary for residents",
     description:
-      "June only. Pick from the terraced groves with our head gardener, then press your own lemonade for lunch.",
+      "Saturday mornings with our head concierge: Daunt Books, the Wallace Collection, the Sunday farmers' market and the cheesemongers only locals know.",
     image:
-      "https://images.unsplash.com/photo-1739520081275-f893dc11fbd6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    imageAlt: "The estate courtyard at dusk among the trees",
+      "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    imageAlt: "Union flags above a London street with a black cab and red bus",
+  },
+  {
+    slug: "afternoon-tea",
+    title: "Afternoon tea in the Drawing Room",
+    category: "In the house",
+    duration: "2 hours",
+    priceNote: "From £85 per guest",
+    description:
+      "Finger sandwiches, warm scones with Cornish clotted cream and a pastry trolley, served on the Hartley family's own porcelain by the fire.",
+    image:
+      "https://images.unsplash.com/photo-1646473224733-780716f42c80?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    imageAlt: "A tray of pastries and coffee served in the Drawing Room",
   },
   {
     slug: "weddings",
-    title: "Weddings on the terrace",
+    title: "Weddings in the Ballroom",
     category: "Celebrations",
     duration: "Bespoke",
-    priceNote: "Up to 80 guests",
+    priceNote: "Up to 120 guests",
     description:
-      "The terrace, the garden and the grand salon dressed for your day — a dedicated celebrations atelier handles everything.",
+      "Vows in the Drawing Room, dinner under the Ballroom chandeliers and dancing until late — a dedicated celebrations team handles everything.",
     image:
       "https://images.unsplash.com/photo-1519225421980-715cb0215aed?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
     imageAlt: "A long celebration table set with flowers and glassware",
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     duration: "Bespoke",
     priceNote: "By proposal",
     description:
-      "Anniversaries, board retreats, launches. Whole-estate hire available in the quiet season.",
+      "Anniversaries, board dinners, launches. Exclusive use of the whole house is available in August and between Christmas and New Year.",
     image:
       "https://images.unsplash.com/photo-1561593367-66c79c2294e6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
     imageAlt: "An elegant dining table set for a private occasion",

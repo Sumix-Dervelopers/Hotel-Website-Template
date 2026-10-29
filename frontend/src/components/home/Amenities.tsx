@@ -13,16 +13,16 @@ interface Amenity {
 
 const amenities: Amenity[] = [
   {
-    title: "The Infinity Edge",
-    blurb: "Saltwater, 28 degrees, and a horizon that never repeats itself.",
+    title: "The Vaults Pool",
+    blurb: "Eighteen metres, 29 degrees, candlelit, and hidden beneath the street.",
     to: "/spa",
     image:
-      "https://images.unsplash.com/photo-1557750505-e7b4d1c40410?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
-    alt: "A swimmer in the infinity pool at sunrise",
+      "https://images.unsplash.com/photo-1730367019975-4ad8d9e14ef2?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+    alt: "The still blue water of the Vaults pool",
   },
   {
     title: "Spa & Thermal Suite",
-    blurb: "Candlelit rituals built on citrus oil, warm stone and silence.",
+    blurb: "Candlelit rituals built on English lavender, warm stone and silence.",
     to: "/spa",
     image:
       "https://images.unsplash.com/photo-1776763018829-ad685e621871?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
@@ -30,19 +30,19 @@ const amenities: Amenity[] = [
   },
   {
     title: "The Gilt Bar",
-    blurb: "Vermouths, amari and a martini trolley that comes to you.",
+    blurb: "English sparkling, old Madeira and a martini trolley that comes to you.",
     to: "/dining",
     image:
       "https://images.unsplash.com/photo-1623408859815-22534357b3db?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
     alt: "A bartender pouring a cocktail in low golden light",
   },
   {
-    title: "Private Jetty",
-    blurb: "Arrive by sea. Departures are politely discouraged.",
+    title: "London on Foot",
+    blurb: "Regent's Park, the West End and Oxford Street, all a short walk away.",
     to: "/experiences",
     image:
-      "https://images.unsplash.com/photo-1588504633950-9dc518941e93?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
-    alt: "Wooden deck resting over still water",
+      "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?crop=entropy&cs=srgb&fm=jpg&q=85&w=800",
+    alt: "Union flags above a London street with a black cab and red bus",
   },
 ];
 
@@ -59,7 +59,7 @@ export function Amenities() {
           <div>
             <FadeUp>
               <p className="eyebrow flex items-center gap-4 text-gold-light">
-                <span className="h-px w-10 bg-gold" /> The Estate
+                <span className="h-px w-10 bg-gold" /> The House
               </p>
             </FadeUp>
             <RevealText
@@ -69,7 +69,7 @@ export function Amenities() {
             />
           </div>
           <FadeUp delay={0.2} className="max-w-sm text-sm leading-relaxed text-cream/60">
-            Fourteen acres of terraced gardens, three pools and one rule: nothing
+            Five Georgian houses, a pool beneath the street and one rule: nothing
             here should ever feel hurried.
           </FadeUp>
         </div>

@@ -2,15 +2,15 @@
 export interface GalleryItem {
   src: string;
   alt: string;
-  category: "Estate" | "Suites" | "Dining" | "Wellness" | "Celebrations";
+  category: "The House" | "Suites" | "Dining" | "Wellness" | "Celebrations";
   ratio: "tall" | "wide" | "square";
 }
 
 export const gallery: GalleryItem[] = [
   {
-    src: "https://images.unsplash.com/photo-1766164185798-d6e7eb23a131?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
-    alt: "The illuminated facade at night",
-    category: "Estate",
+    src: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
+    alt: "Historic London rooftops and streets",
+    category: "The House",
     ratio: "tall",
   },
   {
@@ -21,7 +21,7 @@ export const gallery: GalleryItem[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
-    alt: "The chef finishing a plate at Lume",
+    alt: "The chef finishing a seasonal plate in the dining room",
     category: "Dining",
     ratio: "tall",
   },
@@ -39,8 +39,8 @@ export const gallery: GalleryItem[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1735045634800-957fd0dad45e?crop=entropy&cs=srgb&fm=jpg&q=85&w=900",
-    alt: "Chequered hall with glowing lanterns",
-    category: "Estate",
+    alt: "A restored townhouse hall with warm lighting",
+    category: "The House",
     ratio: "wide",
   },
   {

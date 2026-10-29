@@ -82,7 +82,7 @@ export default function Rooms() {
       <PageHero
         eyebrow="Stay"
         titleLines={["Rooms,", <em key="r" className="italic text-gold-light">suites &amp; residences</em>]}
-        subcopy="Forty-two keys, no two alike — every one with plaster walls, linen sheets and a window worth framing."
+        subcopy="Sixty-four keys, no two alike — every one with Georgian proportions, linen sheets and a sash window worth framing."
         image="https://images.unsplash.com/photo-1776763018972-588e27bf6511?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
         imageAlt="A king suite in soft evening lamplight"
       />

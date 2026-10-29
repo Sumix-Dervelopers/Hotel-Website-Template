@@ -14,7 +14,7 @@ export default function Spa() {
       <PageHero
         eyebrow="Spa & Wellness"
         titleLines={["The art of", <em key="s" className="italic text-gold-light">standing still</em>]}
-        subcopy="A candlelit spa cut into the cliff, rituals built on citrus and sea salt, and pools that keep their own silence."
+        subcopy="A candlelit spa in the Georgian coal vaults beneath the street, rituals built on English botanicals, and a pool that keeps its own silence."
         image="https://images.unsplash.com/photo-1776763018829-ad685e621871?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
         imageAlt="Lounge chairs beside the indoor thermal pool"
       />
@@ -94,21 +94,21 @@ export default function Spa() {
             <SectionHeader
               dark
               eyebrow="Water"
-              lines={["Three pools,", <em key="w" className="italic text-gold-light">one silence</em>]}
+              lines={["Beneath the street,", <em key="w" className="italic text-gold-light">one silence</em>]}
             />
             <FadeUp delay={0.2} className="mt-7 max-w-md space-y-5 text-sm leading-relaxed text-cream/65">
               <p>
-                The cliff-edge infinity pool holds 28 degrees from April to
-                November. Below it, cut into the rock: the thermal pool, the
-                steam room and the cold plunge.
+                The Vaults pool runs eighteen metres beneath Ashcombe Place,
+                held at 29 degrees all year and lit only by candles after dark.
+                Beside it: the sauna, the steam room and the cold plunge.
               </p>
               <p>
-                Sunrise yoga happens on the deck above the water, and the sauna
-                keeps a window facing the sea — heat is better with a horizon.
+                Morning yoga happens upstairs in the Garden Room, and the sauna
+                is lined in English oak — London traffic is a rumour down here.
               </p>
             </FadeUp>
             <FadeUp delay={0.3} className="mt-8 space-y-3 border-t border-line-light pt-6 text-xs uppercase tracking-[0.18em] text-cream/50">
-              <p className="flex justify-between gap-6"><span>Infinity pool</span><span className="text-cream">{site.hours.pool}</span></p>
+              <p className="flex justify-between gap-6"><span>Vaults pool</span><span className="text-cream">{site.hours.pool}</span></p>
               <p className="flex justify-between gap-6"><span>Thermal circuit</span><span className="text-cream">{site.hours.spa}</span></p>
             </FadeUp>
           </div>

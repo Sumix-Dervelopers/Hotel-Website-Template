@@ -1,6 +1,6 @@
 /**
  * ─────────────────────────────────────────────────────────────
- *  ROYAL SUMIX — CENTRAL SITE CONFIG
+ *  THE ASHCOMBE — CENTRAL SITE CONFIG
  *  Rebrand the entire template from this ONE file:
  *  name, logo, colors, fonts, contact details, nav, copy.
  *  Components never hard-code the hotel name — they read from here.
@@ -9,13 +9,13 @@
 
 export const site = {
   // ── Brand ────────────────────────────────────────────────
-  name: "Royal Sumix",
-  legalName: "Royal Sumix Hotel & Sanctuary S.p.A.",
-  monogram: "RS", // used in logo mark + preloader
-  tagline: "A sanctuary above the sea",
+  name: "The Ashcombe",
+  legalName: "The Ashcombe Hotel (Marylebone) Ltd",
+  monogram: "TA", // used in logo mark + preloader
+  tagline: "A quiet house in the heart of London",
   description:
-    "Royal Sumix is a 42-suite boutique sanctuary suspended between lemon groves and the open Riviera — quiet luxury, cinematic views and service that anticipates.",
-  established: 1987,
+    "The Ashcombe is a 64-room townhouse hotel set across five Grade II-listed Georgian houses in Marylebone — quiet luxury, a seasonal British dining room and a candlelit pool in the old coal vaults.",
+  established: 1924,
   starRating: 5,
 
   // ── Visual identity (mirrored in src/index.css as CSS variables) ──
@@ -33,34 +33,36 @@ export const site = {
   },
 
   // ── Contact & location ───────────────────────────────────
+  // Phone numbers use Ofcom's reserved drama ranges (020 7946 0xxx,
+  // 07700 900xxx) so they look real but never reach anyone.
   contact: {
-    phone: "+39 0187 555 134",
-    phoneHref: "+390187555134",
-    whatsapp: "390187555134", // wa.me number, digits only
-    email: "reservations@royalsumix.com",
+    phone: "+44 20 7946 0418",
+    phoneHref: "+442079460418",
+    whatsapp: "447700900418", // wa.me number, digits only
+    email: "reservations@theashcombe.co.uk",
     address: {
-      street: "Via della Costa Serena 12",
-      city: "Marina di Lumière",
-      region: "Italian Riviera",
-      zip: "19032",
-      country: "Italy",
+      street: "18–26 Ashcombe Place",
+      city: "London",
+      region: "Marylebone",
+      zip: "W1G 8QE",
+      country: "United Kingdom",
     },
-    coordinates: { lat: 44.1078, lng: 9.7275 },
+    coordinates: { lat: 51.5196, lng: -0.1512 },
     mapEmbed:
-      "https://www.google.com/maps?q=44.1078,9.7275&z=13&output=embed",
+      "https://www.google.com/maps?q=51.5196,-0.1512&z=15&output=embed",
   },
 
   hours: {
     reception: "24 hours, every day",
-    restaurant: "19:00 — 23:00 · Tue to Sun",
-    spa: "08:00 — 20:00 daily",
-    pool: "Dawn until dusk",
+    restaurant: "18:00 — 22:30 · Tue to Sat",
+    spa: "07:00 — 21:00 daily",
+    pool: "06:30 — 22:00 daily",
   },
 
   social: {
-    instagram: "https://www.instagram.com/royalsumix",
-    pinterest: "https://www.pinterest.com/royalsumix",
-    vimeo: "https://vimeo.com/royalsumix",
+    instagram: "https://www.instagram.com/theashcombe",
+    pinterest: "https://www.pinterest.com/theashcombe",
+    vimeo: "https://vimeo.com/theashcombe",
   },
 
   // ── Navigation ───────────────────────────────────────────
@@ -80,41 +82,41 @@ export const site = {
     { label: "Privacy Policy", to: "/privacy" },
     { label: "Terms of Stay", to: "/terms" },
   ],
-  languages: ["EN", "IT", "FR"],
-  currencies: ["EUR", "USD", "GBP", "INR", "NPR"],
+  languages: ["EN", "FR", "DE"],
+  currencies: ["GBP", "EUR", "USD", "INR", "NPR"],
 
   // ── Home page copy ───────────────────────────────────────
   hero: {
-    eyebrow: "Italian Riviera · Est. 1987",
-    titleLines: ["A sanctuary", "above the sea"],
+    eyebrow: "Marylebone, London · Est. 1924",
+    titleLines: ["A quiet house", "in the heart of London"],
     subcopy:
-      "Forty-two suites carved into the cliffside, a Michelin-guided table, and a spa that smells of lemon blossom and sea salt.",
+      "Sixty-four rooms across five Georgian townhouses, a dining room that answers to the British seasons, and a pool hidden in the old coal vaults.",
     slides: [
       {
-        src: "https://images.unsplash.com/photo-1596746698204-d69844da956d?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-        alt: "Infinity pool dissolving into the open sea at golden hour",
-      },
-      {
         src: "https://images.unsplash.com/photo-1766164185798-d6e7eb23a131?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-        alt: "The illuminated facade of Royal Sumix at night",
+        alt: "The illuminated facade of The Ashcombe at night",
       },
       {
         src: "https://images.unsplash.com/photo-1742844552193-2fd3425cd26d?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-        alt: "Sunlight washing through the grand lobby",
+        alt: "Sunlight washing through the entrance hall",
       },
       {
-        src: "https://images.unsplash.com/photo-1557750505-e7b4d1c40410?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-        alt: "A swimmer alone in the infinity pool at sunrise",
+        src: "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
+        alt: "Union flags strung above Regent Street, a short walk from the house",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1744000311897-510b64f9a2e2?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
+        alt: "The Ashcombe Suite dressed for the evening beneath brass lamps",
       },
     ],
   },
 
   intro: {
-    eyebrow: "The Estate",
-    titleLines: ["A house of quiet", "ceremony since 1987"],
+    eyebrow: "The House",
+    titleLines: ["Five Georgian houses,", "one front door"],
     paragraphs: [
-      "Founded by the Sumix family as a private summer residence, the house opened its doors to travellers in 1987 with a single promise — that luxury should feel like exhaling.",
-      "Today the estate unfolds over three acres of terraced gardens: suites with hand-plastered walls, a saltwater infinity pool, and a kitchen that answers only to the seasons.",
+      "In 1924 the Hartley sisters joined five Georgian townhouses on Ashcombe Place behind a single black front door, and opened twenty-two rooms to travellers with one promise — that London should feel like exhaling.",
+      "A century later the house holds sixty-four rooms and suites with original sash windows and marble fireplaces, a candlelit pool in the old coal vaults, and a kitchen that answers only to the British seasons.",
     ],
     images: [
       {
@@ -122,58 +124,65 @@ export const site = {
         alt: "Chequered marble hall with glowing lanterns",
       },
       {
-        src: "https://images.unsplash.com/photo-1588504633950-9dc518941e93?crop=entropy&cs=srgb&fm=jpg&q=85&w=700",
-        alt: "Private wooden deck resting over calm water",
+        src: "https://images.unsplash.com/photo-1517394834181-95ed159986c7?crop=entropy&cs=srgb&fm=jpg&q=85&w=700",
+        alt: "Georgian sash windows and a red telephone box on a rainy London morning",
       },
     ],
     stats: [
-      { value: 38, suffix: "", label: "Years of welcome" },
-      { value: 42, suffix: "", label: "Suites & residences" },
-      { value: 17, suffix: "", label: "International awards" },
-      { value: 98, suffix: "%", label: "Guests who return" },
+      { value: 102, suffix: "", label: "Years of welcome" },
+      { value: 64, suffix: "", label: "Rooms & suites" },
+      { value: 23, suffix: "", label: "International awards" },
+      { value: 72, suffix: "%", label: "Guests who return" },
     ],
   },
 
   quote: {
-    text: "Luxury is not thread counts and chandeliers. It is the feeling of being exactly where you should be.",
-    attribution: "Elena Sumix, Founder",
+    text: "London is wonderfully loud. A good hotel should be the one place in it that isn't.",
+    attribution: "Margaret Hartley, Founder, 1924",
     image:
-      "https://images.unsplash.com/photo-1787059717832-a8f7d527d9a5?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-    imageAlt: "The hotel reflected in the pool beneath lit palms at night",
+      "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
+    imageAlt: "Westminster and the Elizabeth Tower beneath a stormy dusk sky",
   },
 
   marquee: [
-    "Royal Sumix",
-    "Costa Serena",
-    "Est. 1987",
-    "Sanctuary above the sea",
-    "Forty-two suites",
-    "Riviera, Italy",
+    "The Ashcombe",
+    "Marylebone",
+    "Est. 1924",
+    "A quiet house in London",
+    "Sixty-four rooms",
+    "London W1",
   ],
 
   location: {
     eyebrow: "Finding Us",
-    titleLines: ["Ninety minutes", "from everywhere"],
-    body: "Set on a private headland between Portofino and Cinque Terre, the estate is reached by a single cypress-lined road — or by boat, which we recommend.",
+    titleLines: ["Marylebone,", "on foot"],
+    body: "A block from Marylebone High Street, between Regent's Park and Oxford Street — close enough to everything, far enough from the noise.",
     image:
-      "https://images.unsplash.com/photo-1739520081275-f893dc11fbd6?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
-    imageAlt: "The estate courtyard at dusk, chairs set out beneath warm lights",
+      "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+    imageAlt: "Westminster Bridge and the Elizabeth Tower on a soft grey afternoon",
     transfers: [
-      { label: "Genoa Airport", value: "75 min by car" },
-      { label: "La Spezia Centrale", value: "25 min by car" },
-      { label: "Private jetty", value: "Direct arrival by sea" },
+      { label: "Heathrow Airport", value: "45 min by car" },
+      { label: "Bond Street (Elizabeth line)", value: "8 min walk" },
+      { label: "St Pancras International", value: "15 min by car" },
     ],
   },
 
   newsletter: {
-    title: "Letters from the cliff",
-    body: "One unhurried letter each month — seasonal menus, quiet openings, and first access to residence releases. No noise, ever.",
+    title: "Letters from Marylebone",
+    body: "One unhurried letter each month — seasonal menus, quiet openings in the neighbourhood, and first access to suite releases. No noise, ever.",
+  },
+
+  // ── Site credit (footer bottom bar) — leave url empty for plain text ──
+  credit: {
+    label: "Designed & built by",
+    name: "Sumix Developers",
+    url: "",
   },
 
   seo: {
-    title: "Royal Sumix — Boutique Hotel & Sanctuary, Italian Riviera",
+    title: "The Ashcombe — Luxury Townhouse Hotel in Marylebone, London",
     ogImage:
-      "https://images.unsplash.com/photo-1596746698204-d69844da956d?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+      "https://images.unsplash.com/photo-1766164185798-d6e7eb23a131?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
   },
 };
 

@@ -115,7 +115,16 @@ export function Footer() {
             <Link to="/privacy" className="transition-colors hover:text-cream" data-testid="footer-privacy-link">Privacy</Link>
             <Link to="/terms" className="transition-colors hover:text-cream" data-testid="footer-terms-link">Terms</Link>
           </span>
-          <span>Crafted on the Riviera</span>
+          <span data-testid="footer-credit">
+            {site.credit.label}{" "}
+            {site.credit.url ? (
+              <a href={site.credit.url} target="_blank" rel="noopener noreferrer" className="text-cream/70 transition-colors hover:text-gold">
+                {site.credit.name}
+              </a>
+            ) : (
+              <span className="text-cream/70">{site.credit.name}</span>
+            )}
+          </span>
         </div>
       </div>
 

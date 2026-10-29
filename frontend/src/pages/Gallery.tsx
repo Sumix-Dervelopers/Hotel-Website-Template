@@ -30,8 +30,8 @@ export default function Gallery() {
     <>
       <PageHero
         eyebrow="Gallery"
-        titleLines={["Postcards from", <em key="g" className="italic text-gold-light">the cliff</em>]}
-        subcopy="The estate, the suites, the table and the water — as our guests' cameras found them."
+        titleLines={["Postcards from", <em key="g" className="italic text-gold-light">Marylebone</em>]}
+        subcopy="The house, the suites, the table and the city — as our guests' cameras found them."
         image="https://images.unsplash.com/photo-1766164185798-d6e7eb23a131?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
         imageAlt="The illuminated facade of the hotel at night"
       />

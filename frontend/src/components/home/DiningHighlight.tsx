@@ -17,7 +17,7 @@ export function DiningHighlight() {
         <div className="relative lg:col-span-6">
           <ParallaxImage
             src="https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&q=85&w=1100"
-            alt="The chef pouring sauce over a plated dish at Lume"
+            alt="The chef pouring sauce over a plated dish at Hollis"
             speed={7}
             className="aspect-[4/5] w-[82%]"
           />
@@ -39,13 +39,13 @@ export function DiningHighlight() {
           <RevealText
             as="h2"
             className="h-section mt-5"
-            lines={["Lume — fire,", <em key="d" className="italic text-gold-deep">tide &amp; citrus</em>]}
+            lines={["Hollis — field,", <em key="d" className="italic text-gold-deep">fire &amp; season</em>]}
           />
           <FadeUp delay={0.25} className="mt-7 max-w-md space-y-5 text-sm leading-relaxed text-ink/70 md:text-base">
             <p>
-              Our kitchen answers to the morning market and the evening tide.
-              Seven courses, one long candlelit room, and a cellar that leans
-              toward small Riviera producers.
+              Our kitchen answers to British farms and Cornish day boats.
+              Seven courses, one long candlelit room, and a cellar with a soft
+              spot for English sparkling.
             </p>
             <p>
               The Gilt Bar pours until the last guest goes upstairs — which is

@@ -10,7 +10,7 @@
     --font-heading: 'Playfair Display Variable', 'Georgia', serif;
     --font-sans: 'Manrope Variable', 'Inter', sans-serif;
 
-    /* Royal Sumix palette — themeable from src/config/site.js */
+    /* The Ashcombe palette — themeable from src/config/site.js */
     --color-ivory: #FAF7F2;
     --color-charcoal: #121212;
     --color-ink: #1A1A1A;

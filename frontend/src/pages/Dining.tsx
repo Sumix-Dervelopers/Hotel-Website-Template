@@ -41,7 +41,7 @@ export default function Dining() {
         titleLines={["The table is", <em key="d" className="italic text-gold-light">the house's heart</em>]}
         subcopy="One candlelit dining room, one low-lit bar, and a menu written each morning at the harbour market."
         image="https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
-        imageAlt="The chef pouring sauce over a plated dish at Lume"
+        imageAlt="The chef pouring sauce over a plated dish at Hollis"
       />
 
       {/* Venues */}
@@ -141,7 +141,7 @@ export default function Dining() {
             />
             <FadeUp delay={0.2}>
               <p className="mt-6 max-w-sm text-sm leading-relaxed text-ink/65">
-                Twelve tables at Lume, six seats at the chef's counter. The bar
+                Fourteen tables at Hollis, six seats at the chef's counter. The bar
                 never takes bookings — it simply keeps your chair warm.
               </p>
             </FadeUp>

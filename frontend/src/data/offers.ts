@@ -11,23 +11,23 @@ export interface Offer {
 
 export const offers: Offer[] = [
   {
-    slug: "gastronomy-escape",
-    title: "The Gastronomy Escape",
-    eyebrow: "Two nights · Tasting menu",
-    priceNote: "From €1,480 for two",
+    slug: "marylebone-weekend",
+    title: "The Marylebone Weekend",
+    eyebrow: "Two nights · Dinner at Hollis",
+    priceNote: "From £1,650 for two",
     description:
-      "Two nights in a sea-view suite, a seven-course tasting at Lume, and a morning in the kitchen with our chef.",
+      "Two nights in a Deluxe King, a seven-course dinner at Hollis, a late 2pm check-out and a Saturday morning walk through the village with our head concierge.",
     image:
       "https://images.unsplash.com/photo-1689672235501-6dc1e56d454c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
     imageAlt: "A composed plate beside a glass of white wine",
   },
   {
-    slug: "wellness-retreat",
-    title: "Wellness in Residence",
+    slug: "vaults-retreat",
+    title: "The Vaults Retreat",
     eyebrow: "Three nights · Daily rituals",
-    priceNote: "From €2,100 for two",
+    priceNote: "From £2,950 for two",
     description:
-      "Three nights with daily spa rituals, sunrise yoga on the deck and a personalised nutrition menu.",
+      "Three nights with a daily treatment in the Vaults spa, morning yoga in the Garden Room and a personalised menu from the kitchen.",
     image:
       "https://images.unsplash.com/photo-1720118509152-2df877673bee?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
     imageAlt: "Candles and a drawn bath in the candlelit spa",
@@ -35,10 +35,10 @@ export const offers: Offer[] = [
   {
     slug: "celebrations",
     title: "Celebrations & Vows",
-    eyebrow: "Bespoke · Up to 80 guests",
+    eyebrow: "Bespoke · Up to 120 guests",
     priceNote: "By private proposal",
     description:
-      "The terrace, the garden and the grand salon, dressed for your day — with a dedicated celebrations atelier.",
+      "The Ballroom, the Drawing Room and the walled garden, dressed for your day — with a dedicated celebrations team and a licence for civil ceremonies.",
     image:
       "https://images.unsplash.com/photo-1519225421980-715cb0215aed?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
     imageAlt: "A long celebration table set with flowers and glassware",

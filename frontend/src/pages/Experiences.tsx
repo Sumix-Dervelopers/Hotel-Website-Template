@@ -32,10 +32,10 @@ export default function Experiences() {
     <>
       <PageHero
         eyebrow="Experiences"
-        titleLines={["Days made", <em key="e" className="italic text-gold-light">of salt &amp; citrus</em>]}
-        subcopy="Boat days, harvest mornings, pasta ateliers — and a terrace that has hosted a hundred yeses."
-        image="https://images.unsplash.com/photo-1770563864411-488559bf7a56?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
-        imageAlt="A wooden gozzo floating near colourful harbour buildings"
+        titleLines={["Days made", <em key="e" className="italic text-gold-light">of London</em>]}
+        subcopy="River evenings, West End nights, afternoon tea by the fire — and a Ballroom that has hosted a hundred yeses."
+        image="https://images.unsplash.com/photo-1454537468202-b7ff71d51c2e?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
+        imageAlt="Tower Bridge over the Thames at dusk"
       />
 
       {/* Packages */}
@@ -84,17 +84,18 @@ export default function Experiences() {
             <SectionHeader
               dark
               eyebrow="Weddings & events"
-              lines={["The terrace,", <em key="w" className="italic text-gold-light">dressed for you</em>]}
+              lines={["The Ballroom,", <em key="w" className="italic text-gold-light">dressed for you</em>]}
             />
             <FadeUp delay={0.2} className="mt-7 max-w-md space-y-5 text-sm leading-relaxed text-cream/65">
               <p>
-                Up to eighty guests on the cliff terrace, dinner in the grand
-                salon, dancing in the garden under the lemon trees. Our
-                celebrations atelier takes on twelve weddings a year — never more.
+                Up to 120 guests under the Ballroom chandeliers, vows in the
+                Drawing Room, photographs in the walled garden. Our celebrations
+                team takes on twenty weddings a year — never more.
               </p>
               <p>
-                Whole-estate hire is available in the quiet season for retreats,
-                launches and occasions that deserve a horizon.
+                Exclusive use of the whole house is available in August and over
+                Christmas for retreats, launches and occasions that deserve a
+                front door of their own.
               </p>
             </FadeUp>
           </div>

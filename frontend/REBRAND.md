@@ -1,4 +1,4 @@
-# Royal Sumix — Rebrand Guide
+# The Ashcombe — Rebrand Guide
 
 This template is built to be rebranded for any hotel client in minutes. Almost
 everything lives in data files, never in components.

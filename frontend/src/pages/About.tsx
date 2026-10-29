@@ -21,7 +21,7 @@ export default function About() {
       <PageHero
         eyebrow={`Since ${site.established}`}
         titleLines={["A family house,", <em key="a" className="italic text-gold-light">open to the world</em>]}
-        subcopy="Three generations of one family, one cliff, and a single unbroken rule: nothing hurried."
+        subcopy="Five Georgian houses, four generations of one family, and a single unbroken rule: nothing hurried."
         image="https://images.unsplash.com/photo-1742844552193-2fd3425cd26d?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
         imageAlt="Sunlight washing through the grand lobby"
       />
@@ -31,7 +31,7 @@ export default function About() {
         <div className="container-royal">
           <SectionHeader
             eyebrow="The story"
-            lines={["Seven decades", <em key="t" className="italic text-gold-deep">on one cliff</em>]}
+            lines={["A century", <em key="t" className="italic text-gold-deep">on Ashcombe Place</em>]}
             className="max-w-2xl"
           />
           <div ref={timelineRef} className="relative mx-auto mt-16 max-w-3xl">

@@ -35,6 +35,13 @@ The public hotel pages are static. Backend-dependent sign-out/API features
 require a separately hosted backend and a matching `/api` proxy; the Vite proxy
 only runs during local development.
 
+### Deploying with Coolify
+
+Create a Dockerfile-based application in Coolify using `frontend/` as the
+build context and `frontend/Dockerfile` as the Dockerfile path. The image builds
+the Vite app and serves the static frontend on port 80 with SPA route fallback.
+This frontend-only container does not run or proxy to the backend.
+
 ## The `/api` proxy convention
 
 Every backend route lives under `/api` (the backend mounts one

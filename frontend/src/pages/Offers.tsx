@@ -13,7 +13,7 @@ export default function Offers() {
       <PageHero
         eyebrow="Offers"
         titleLines={["Seasonal", <em key="o" className="italic text-gold-light">privileges</em>]}
-        subcopy="A small number of considered packages each season — never discounts, always additions."
+        subcopy="Thoughtful ways to make more of a London stay, from a long weekend in Marylebone to an afternoon set aside for the spa."
         image="https://images.unsplash.com/photo-1689672235501-6dc1e56d454c?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920"
         imageAlt="A composed plate beside a glass of white wine"
       />

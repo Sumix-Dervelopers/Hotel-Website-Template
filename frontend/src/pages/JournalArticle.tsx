@@ -66,7 +66,7 @@ export default function JournalArticle() {
             ))}
           </div>
           <FadeUp className="mt-12 border-t border-line pt-8">
-            <p className="eyebrow text-sand">Written from the cliff, with love</p>
+            <p className="eyebrow text-sand">Written from Marylebone, with love</p>
           </FadeUp>
         </div>
 
